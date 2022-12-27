@@ -1,0 +1,168 @@
+:root {
+  --main-color: #e4d8cc;
+  --seconady-color: #c3bab1;
+  --white-color: #ffffff;
+  --background: #e7dfd8;
+  --main-text-color: #101010;
+
+  --font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.container {
+  max-width: 1172px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-block {
+  background-image: url(/images/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  max-width: 1280px;
+  margin: auto;
+}
+
+.header-block {
+  display: flex;
+  padding-left: 198px;
+  padding-top: 23px;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-list .item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.header-link:hover {
+  padding: 3px;
+  color: rgba(64, 40, 22, 1);
+  background-color: rgba(228, 216, 204, 0.5);
+  border-radius: 3px;
+}
+
+.adress-list {
+  display: flex;
+  margin-left: 253px;
+}
+
+.adress-list .item:not(:last-child) {
+  margin-right: 38px;
+}
+
+.header-link {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: calc(24 / 11);
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.main-title {
+  display: block;
+  max-width: 838px;
+  font-weight: 400;
+  font-size: 57px;
+  line-height: calc(60 / 57);
+
+  padding-top: 364px;
+  padding-left: 64px;
+
+  color: var(--main-color);
+}
+
+.main-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(28 / 18);
+
+  padding-top: 14px;
+  padding-left: 64px;
+
+  color: var(--seconady-color);
+}
+
+.button-list {
+  display: flex;
+  padding-top: 42px;
+  padding-left: 64px;
+  padding-bottom: 116px;
+}
+
+.button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  padding: 14px 34px;
+  color: var(--white-color);
+  background: rgba(228, 216, 204, 0.5);
+  border-radius: 100px;
+  border: transparent;
+  cursor: pointer;
+}
+
+.button-list .item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #7837f3;
+}
+
+/* ---------------------------------------------DESCRIPTION-------------------------------------- */
+
+.description {
+  padding-top: 76px;
+  padding-bottom: 75px;
+  background-color: var(--background);
+}
+
+.description-box {
+  display: flex;
+  }
+
+.description-title {
+  font-weight: 400;
+  font-size: 54px;
+  line-height: calc(58 / 54);
+  max-width: 507px;
+  color:var(--main-text-color);
+  margin-right: 106px;
+}
+
+.description-abstract {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(22 / 16);
+  max-width: 452px;
+  color: var(--main-text-color);
+  padding-top: 15px;
+}
+
+
+
